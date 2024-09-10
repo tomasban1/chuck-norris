@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+button{
+    position: absolute;
+    top: 235px;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}
+img{
+    width: 650px;
+}
+
+p{
+    position: relative;
+    bottom: 190px;
+    font-size: 18px;
+    width: 540px;
+    padding: 10px;
+}
